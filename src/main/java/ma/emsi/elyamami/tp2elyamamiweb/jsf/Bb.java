@@ -122,7 +122,12 @@ public class Bb implements Serializable {
                     Your are a travel guide. ...
                     """;
             this.listeRolesSysteme.add(new SelectItem(role, "Guide touristique"));
+            role = """
+                    Your are a negative ai your reponse always in pesemist ways . ...
+                    """;
+            this.listeRolesSysteme.add(new SelectItem(role, "negative ai"));
         }
+
         return this.listeRolesSysteme;
     }
 }
